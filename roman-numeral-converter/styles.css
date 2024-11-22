@@ -1,0 +1,75 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font for the body */
+body {
+    background-color: #e0f7fa;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main container styles */
+main {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: center;
+    width: 320px;
+}
+
+/* Header styles */
+h1 {
+    color: #00796b; 
+    margin-bottom: 20px;
+    font-size: 24px; 
+}
+
+/* Input field styles */
+.number {
+    width: 90%;
+    padding: 12px;
+    border: 2px solid #00796b;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+/* Input field focus effect */
+.number:focus {
+    border-color: #004d40;
+    outline: none;
+}
+
+/* Button styles */
+.palindrome-btn {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Button hover effect */
+.palindrome-btn:hover {
+    background-color: #004d40; 
+    transform: translateY(-2px);
+}
+
+/* Result text styles */
+.palindrome-result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #00796b;
+    font-weight: bold;
+}
